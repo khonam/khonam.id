@@ -12,35 +12,32 @@ const MenuGaransi = [
   {
     title: "Layanan Profesional",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
+      "Dengan solusi profesional kami, Anda dapat berfokus pada apa yang Anda lakukan terbaik, sementara kami menangani detailnya.",
   },
   {
     title: "Respon Cepat",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
+      "Kami memahami urgensi kebutuhan Anda. Dengan layanan respon cepat kami, masalah Anda menjadi prioritas kami.",
   },
   {
     title: "Garansi Tersedia",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
-  },
-];
-
-const Menu2 = [
-  {
-    title: "Biaya Terjangkau",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
+      "Dengan garansi yang tersedia, Anda dapat memastikan bahwa Anda mendapatkan kualitas terbaik sampai anda puas.",
   },
   {
     title: "Biaya Terjangkau",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
+      "Kami menyediakan layanan unggul tanpa menguras anggaran Anda. Dengan biaya terjangkau, Anda mendapatkan kualitas terbaik.",
   },
   {
-    title: "Biaya Terjangkau",
+    title: "Support Maksimal",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati",
+      "Kami siap memberikan dukungan terbaik untuk memastikan Anda mencapai tingkat kesuksesan yang lebih tinggi.",
+  },
+  {
+    title: "Support Maksimal",
+    content:
+      "Kami siap memberikan dukungan terbaik untuk memastikan Anda mencapai tingkat kesuksesan yang lebih tinggi.",
   },
 ];
 
@@ -73,27 +70,23 @@ const MenuTeknologi = [
 
 export default function Garansi() {
   return (
-    <div className="container mx-auto bg-slate-900 p-16 rounded-lg">
-      <div className="bg-slate-300 relative flex flex-col justify-center items-center p-5 lg:p-10 space-y-9 rounded-lg">
+    <div className="container mx-auto bg-slate-900 p-7 lg:p-16 rounded-lg">
+      <div className="bg-slate-300 relative flex flex-col justify-center items-center p-5 lg:p-10 space-y-3 lg:space-y-2 rounded-lg">
         <div className="">
-          <h1 className="text-2xl anton">Yang Pasti Kamu Dapatkan</h1>
+          <h1 className="text-xl md:text-2xl 2xl:text-3xl anton">
+            Yang Pasti Kamu Dapatkan
+          </h1>
         </div>
-        <div className="lg:flex gap-3 text-center">
+        <div className="text-center grid md:grid-cols-2 lg:grid-cols-3">
           {MenuGaransi.map((i, index) => {
             return (
-              <div key={index} className="lg:max-w-md">
-                <h1 className="text-xl font-bold poppins">{i.title}</h1>
-                <p className="text-md font-normal">{i.content}</p>
-              </div>
-            );
-          })}
-        </div>
-        <div className="lg:flex gap-3 text-center">
-          {Menu2.map((i, index) => {
-            return (
-              <div key={index} className="lg:max-w-md">
-                <h1 className="text-xl font-bold poppins">{i.title}</h1>
-                <p className="text-md font-normal">{i.content}</p>
+              <div key={index} className="space-y-1 mt-2 lg:mt-7">
+                <h1 className="text-md md:text-xl font-bold poppins">
+                  {i.title}
+                </h1>
+                <p className="text-xs md:text-md 2xl:text-lg font-normal">
+                  {i.content}
+                </p>
               </div>
             );
           })}
@@ -103,7 +96,7 @@ export default function Garansi() {
         <div>
           <h1 className="anton font-medium">Teknologi Yang Kami Kembangkan</h1>
         </div>
-        <div className="lg:flex items-center space-y-2 lg:space-y-0 lg:gap-10 mt-3">
+        <div className="lg:flex items-center lg:space-y-0 lg:gap-10 mt-3 grid grid-cols-4 gap-2">
           {MenuTeknologi.map((i, index) => {
             return (
               <div
@@ -113,7 +106,7 @@ export default function Garansi() {
                 <img
                   src={i.image}
                   alt="teknologi"
-                  width={80}
+                  width={90}
                   className="flex justify-center items-center"
                 />
               </div>

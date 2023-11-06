@@ -6,16 +6,20 @@ import LinkRouter from "./ui/link";
 export default function Home() {
   return (
     <div className="lg:flex justify-center items-center">
-      <div className="max-w-xl space-y-4 text-white">
-        <h1 className="anton text-4xl texti">
-          KEMBANGKAN BISNISMU DISELURUH DUNIA
-          <span className="mt-2 flex"> BERSAMA KHONAM.ID</span>
+      <div className="max-w-xl space-y-2 md:space-y-4 text-white">
+        <h1 className="anton text-3xl md:text-4xl uppercase">
+          Jelajahi Dunia Bersama
+          <span className="mt-2 md:flex uppercase">
+            {" "}
+            Khonam.id : Kembangkan Bisnismu Secara Global !
+          </span>
         </h1>
-        <p className="max-w-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
-          maxime, est modi corrupti provident nam suscipit quod iusto, ullam
-          soluta voluptate! Sequi veritatis architecto id facere! Cumque maiores
-          recusandae voluptas.
+        <p className="lg:max-w-10 text-xs md:text-md lg:text-lg">
+          memiliki website profesional adalah langkah kunci dalam membangun
+          kehadiran online yang kuat dan memenangkan persaingan bisnis. Kami,
+          tim ahli di Khonam.id, memahami betapa pentingnya kesan pertama dalam
+          dunia digital. Inilah mengapa kami hadir untuk membantu Anda mencapai
+          tujuan Anda dengan solusi website profesional yang istimewa.
         </p>
         <div>
           <LinkRouter to="/" name="Hubungi Kami" />
@@ -23,7 +27,7 @@ export default function Home() {
       </div>
       <div>
         <div className="mt-5 lg:mt-0">
-          <img src={BG} width={800} height={700} className="" alt="kamu" />
+          <img src={BG} width={760} height={700} className="" alt="kamu" />
         </div>
       </div>
     </div>

@@ -61,9 +61,11 @@ export default function Index() {
             : "py-4 text-white bg-black shadow-sm lg:shadow-none shadow-slate-800 lg:shadow-transparent lg:bg-transparent fixed w-full z-30"
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-0">
           <div>
-            <h1 className="text-3xl anton tracking-wider">Khonam.id</h1>
+            <h1 className="text-2xl md:text-3xl anton tracking-wider">
+              Khonam.id
+            </h1>
           </div>
           <ul className="hidden lg:flex items-center gap-10">
             {MenuNav.map((i, index) => {
@@ -78,22 +80,28 @@ export default function Index() {
           </ul>
         </div>
       </div>
-      <div className="lg:h-screen mt-20 lg:mt-0">
+      <div className="lg:h-screen mt-20 lg:mt-0 px-3 md:px-6 lg:px-0">
         <div className="lg:h-screen container mx-auto flex justify-center items-center">
           <Home />
         </div>
       </div>
-      <div className="lg:h-screen mt-3 lg:mt-0 px-5 lg:px-0" id="layanan">
-        <div className="lg:h-screen contsiner mx-auto flex justify-center items-center">
+      <div
+        className="lg:h-screen mt-3 lg:mt-0 px-3 md:px-6 lg:px-0"
+        id="layanan"
+      >
+        <div className="lg:h-screen container mx-auto flex justify-center items-center">
           <Layanan />
         </div>
       </div>
-      <div className="lg:h-screen mt-4 lg:mt-0" id="teknologi">
+      <div
+        className="lg:h-screen mt-4 lg:mt-0 px-3 md:px-6 lg:px-0"
+        id="teknologi"
+      >
         <div className="lg:h-screen container mx-auto flex justify-center items-center">
           <Garansi />
         </div>
       </div>
-      <div className="h-80 bg-slate-900">
+      <div className=" bg-slate-900">
         <Footer />
       </div>
     </div>
