@@ -1,22 +1,23 @@
 import React from "react";
 import WebApp from "../assets/webapp.png";
+import WebToko from "../assets/toko.png";
 import LinkRouter from "./ui/link";
 
 const MenuLayanan = [
   {
     name: "Pembuatan WebApp",
     content: "Menciptakan solusi WebApp berkualitas tinggi dengan desain",
-    to: "/webapp",
+    img: WebToko,
   },
   {
     name: "Pembuatan Website",
     content: "Menciptakan website menarik, responsif, dan berkinerja tinggi.",
-    to: "/website",
+    img: WebToko,
   },
   {
     name: "Pembuatan Toko Online",
     content: "Mulailah berjualan secara daring dengan cepat dan efisien.",
-    to: "/toko-online",
+    img: WebToko,
   },
 ];
 
@@ -37,7 +38,7 @@ export default function Layanan() {
               className="bg-slate-900 p-5 py-10 space-y-3 text-white rounded-lg"
             >
               <div className="flex items-center justify-center">
-                <img src={WebApp} alt="img" width={300} />
+                <img src={i.img} alt="img" width={300} />
               </div>
               <div className="pt-10 text-center">
                 <h1 className="anton mb-2 text-2xl text-center">{i.name}</h1>
@@ -46,7 +47,10 @@ export default function Layanan() {
                     {i.content}
                   </p>
                   <div className="mt-3 text-white flex justify-center items-center">
-                    <LinkRouter to={i.to} name="Selengkapnya" />
+                    <LinkRouter
+                      to="https://wa.me/message/MCNWXPGSBCH6M1"
+                      name="Hubungi Kami"
+                    />
                   </div>
                 </div>
               </div>

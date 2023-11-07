@@ -35,9 +35,9 @@ const MenuGaransi = [
       "Kami siap memberikan dukungan terbaik untuk memastikan Anda mencapai tingkat kesuksesan yang lebih tinggi.",
   },
   {
-    title: "Support Maksimal",
+    title: "Pelanggan Setia Kami",
     content:
-      "Kami siap memberikan dukungan terbaik untuk memastikan Anda mencapai tingkat kesuksesan yang lebih tinggi.",
+      "Kami Menghargai Pelanggan Setia Kami! Datang 3 Kali dan Dapatkan Diskon 10% sebagai Tanda Terima Kasih Kami untuk Dukungan Anda",
   },
 ];
 

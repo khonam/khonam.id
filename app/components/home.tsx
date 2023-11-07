@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./ui/link";
 import BG from "../assets/bg.png";
 import LinkRouter from "./ui/link";
 
@@ -7,11 +6,11 @@ export default function Home() {
   return (
     <div className="lg:flex justify-center items-center">
       <div className="max-w-xl space-y-2 md:space-y-4 text-white">
-        <h1 className="anton text-3xl md:text-4xl uppercase">
+        <h1 className="anton text-2xl md:text-4xl uppercase">
           Jelajahi Dunia Bersama
           <span className="mt-2 md:flex uppercase">
             {" "}
-            Khonam.id : Kembangkan Bisnismu Secara Global !
+            Khonam.id, Kembangkan Bisnismu Secara Global !
           </span>
         </h1>
         <p className="lg:max-w-10 text-xs md:text-md lg:text-lg">
@@ -22,7 +21,10 @@ export default function Home() {
           tujuan Anda dengan solusi website profesional yang istimewa.
         </p>
         <div>
-          <LinkRouter to="/" name="Hubungi Kami" />
+          <LinkRouter
+            to="https://wa.me/message/MCNWXPGSBCH6M1"
+            name="Hubungi Kami"
+          />
         </div>
       </div>
       <div>

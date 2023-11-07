@@ -9,7 +9,7 @@ const LinkRouter: React.FC<LinkProps> = ({ name, to }) => {
     <div className="mt-7">
       <Link
         to={to}
-        className="bg-blue-800 rounded-md hover:bg-blue-900 p-3 px-9 poppins"
+        className="bg-blue-800 rounded-md hover:bg-blue-900 p-3 px-5 md:px-9 poppins"
       >
         {name}
       </Link>

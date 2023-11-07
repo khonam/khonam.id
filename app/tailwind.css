@@ -51,3 +51,6 @@
   pointer-events: none;
   animation: lines 25s infinite linear;
 }
+.icon {
+  fill: #ffffff; /* atau fill: #fff; */
+}
