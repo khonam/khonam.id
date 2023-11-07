@@ -68,7 +68,7 @@ export default function Index() {
       >
         <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-8 2xl:px-0">
           <div>
-            <h1 className="text-2xl md:text-3xl anton tracking-wider">
+            <h1 className="text-3xl anton tracking-wider">
               Khonam.id
             </h1>
           </div>
