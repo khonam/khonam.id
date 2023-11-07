@@ -15,11 +15,11 @@ export default function Footer() {
               </h2>
               <div className="text-gray-500 text-xs md:text-md dark:text-gray-400 font-medium">
                 <p className="mb-2">
-                  Telepon<span className="block">083824752627</span>
+                  Telepon<span className="block">082136769232</span>
                 </p>
                 <p>
                   Email
-                  <span className="block">khonamcoding@gmail.com</span>
+                  <span className="block">khonam@gmail.com</span>
                 </p>
               </div>
             </div>
