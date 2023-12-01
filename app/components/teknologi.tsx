@@ -97,7 +97,7 @@ export default function Garansi() {
             return (
               <div
                 key={index}
-                className="bg-white p-4 rounded-lg hover:bg-slate-700 hover:shadow-lg hover:shadow-slate-500"
+                className="bg-white p-4 rounded-lg hover:bg-slate-700 hover:shadow-lg hover:shadow-slate-500 text-center"
               >
                 <img
                   src={i.image}
