@@ -1,7 +1,6 @@
 import React from "react";
 import LogoNode from "../assets/node.svg";
 import LogoReact from "../assets/reactt.svg";
-import LogoNext from "../assets/next.svg";
 import Logopostgres from "../assets/postgres.svg";
 import LogoTs from "../assets/ts.svg";
 import LogoTail from "../assets/tailwind.svg";
@@ -51,9 +50,6 @@ const MenuTeknologi = [
     image: LogoReact,
   },
   {
-    image: LogoNext,
-  },
-  {
     image: LogoFa,
   },
   {
@@ -92,12 +88,12 @@ export default function Garansi() {
         <div>
           <h1 className="anton font-medium">Teknologi Yang Kami Kembangkan</h1>
         </div>
-        <div className="lg:flex items-center lg:space-y-0 lg:gap-10 mt-3 grid grid-cols-4 gap-2">
+        <div className="lg:flex items-center lg:space-y-0 lg:gap-10 mt-3 grid grid-cols-3 gap-2">
           {MenuTeknologi.map((i, index) => {
             return (
               <div
                 key={index}
-                className="bg-white p-4 rounded-lg hover:bg-slate-700 hover:shadow-lg hover:shadow-slate-500 text-center"
+                className="bg-white p-4 rounded-lg hover:bg-slate-700 hover:shadow-lg hover:shadow-slate-500"
               >
                 <img
                   src={i.image}
