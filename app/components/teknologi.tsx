@@ -5,7 +5,6 @@ import LogoNext from "../assets/next.svg";
 import Logopostgres from "../assets/postgres.svg";
 import LogoTs from "../assets/ts.svg";
 import LogoTail from "../assets/tailwind.svg";
-import LogoGo from "../assets/golang.svg";
 import LogoFa from "../assets/favicon.ico";
 
 const MenuGaransi = [
@@ -59,9 +58,6 @@ const MenuTeknologi = [
   },
   {
     image: LogoTail,
-  },
-  {
-    image: LogoGo,
   },
   {
     image: Logopostgres,
